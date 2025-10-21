@@ -1,3 +1,33 @@
+/* === Custom Font: Graebenbach Mono === */
+@font-face {
+  font-family: 'Graebenbach Mono';
+  src: url('../font/GraebenbachMono-Light.woff2') format('woff2'),
+       url('../font/GraebenbachMono-Light.woff') format('woff');
+  font-weight: 300; /* Light */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Graebenbach Mono';
+  src: url('../font/GraebenbachMono-Regular.woff2') format('woff2'),
+       url('../font/GraebenbachMono-Regular.woff') format('woff');
+  font-weight: 400; /* Regular */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Graebenbach Mono';
+  src: url('../font/Graebenbach Mono-Bold.woff2') format('woff2'),
+       url('../font/Graebenbach Mono-Bold.woff') format('woff');
+  font-weight: 700; /* Bold */
+  font-style: normal;
+}
+
+/* === Apply font globally === */
+body {
+  font-family: 'Graebenbach Mono', monospace;
+}
+
 @import url(fontawesome-all.min.css);
 
 /*

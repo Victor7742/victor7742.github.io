@@ -19,8 +19,8 @@
 
 @font-face {
   font-family: 'Graebenbach Mono';
-  src: url('../font/Graebenbach Mono-Bold.woff2') format('woff2'),
-       url('../font/Graebenbach Mono-Bold.woff') format('woff');
+  src: url('../font/GraebenbachMono-Bold.woff2') format('woff2'),
+       url('../font/GraebenbachMono-Bold.woff') format('woff');
   font-weight: 700; /* Bold */
   font-style: normal;
   font-display: swap;
